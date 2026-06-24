@@ -3,6 +3,9 @@ function GoldHEN() {
     var goldHenVersion = localStorage.getItem('GHVer');
     var basePath = "./includes/payloads/GoldHEN/";
     switch (goldHenVersion) {
+        case "GHv2.3_900":
+            sessionStorage.setItem('payload_path', basePath + "goldhen_2.3_900.bin");
+            break;
         case "GHv2.4b18.9":
             sessionStorage.setItem('payload_path', basePath + "goldhen_v2.4b18.9.bin");
             break;
