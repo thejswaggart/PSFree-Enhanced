@@ -6,20 +6,8 @@ function GoldHEN() {
         case "GHv2.3_900":
             sessionStorage.setItem('payload_path', basePath + "goldhen_2.3_900.bin");
             break;
-        case "GHv2.4b18.9":
-            sessionStorage.setItem('payload_path', basePath + "goldhen_v2.4b18.9.bin");
-            break;
-        case "GHv2.4b18.8":
-            sessionStorage.setItem('payload_path', basePath + "goldhen_v2.4b18.8.bin");
-            break;
-        case "GHv2.4b18.7":
-            sessionStorage.setItem('payload_path', basePath + "goldhen_v2.4b18.7.bin");
-            break;
-        case "GHv2.4b18.6":
-            sessionStorage.setItem('payload_path', basePath + "goldhen_v2.4b18.6.bin");
-            break;
-        case "GHv2.4b18.5":
-            sessionStorage.setItem('payload_path', basePath + "goldhen_v2.4b18.5.bin");
+        case "GHv2.1_900":
+            sessionStorage.setItem('payload_path', basePath + "goldhen_2.1_900.bin");
             break;
         default:
             sessionStorage.setItem('payload_path', basePath + "goldhen_v2.4b18.10.bin");
